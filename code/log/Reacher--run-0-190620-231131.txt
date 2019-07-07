@@ -1,0 +1,18 @@
+2019-06-20 23:20:16,235 - root - ERROR: Exception calling application: Ran out of input
+Traceback (most recent call last):
+  File "/home/totolia/anaconda2/envs/drlnd/lib/python3.6/site-packages/grpc/_server.py", line 385, in _call_behavior
+    return behavior(argument, context), True
+  File "/home/totolia/anaconda2/envs/drlnd/lib/python3.6/site-packages/unityagents/rpc_communicator.py", line 26, in Exchange
+    return self.child_conn.recv()
+  File "/home/totolia/anaconda2/envs/drlnd/lib/python3.6/multiprocessing/connection.py", line 251, in recv
+    return _ForkingPickler.loads(buf.getbuffer())
+EOFError: Ran out of input
+2019-06-20 23:20:17,244 - root - ERROR: Exception calling application: could not find MARK
+Traceback (most recent call last):
+  File "/home/totolia/anaconda2/envs/drlnd/lib/python3.6/site-packages/grpc/_server.py", line 385, in _call_behavior
+    return behavior(argument, context), True
+  File "/home/totolia/anaconda2/envs/drlnd/lib/python3.6/site-packages/unityagents/rpc_communicator.py", line 26, in Exchange
+    return self.child_conn.recv()
+  File "/home/totolia/anaconda2/envs/drlnd/lib/python3.6/multiprocessing/connection.py", line 251, in recv
+    return _ForkingPickler.loads(buf.getbuffer())
+_pickle.UnpicklingError: could not find MARK
